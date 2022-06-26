@@ -17,6 +17,9 @@
 		C0A180762868AA3C00C9EDDF /* GuntingBatuKertasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A180752868AA3C00C9EDDF /* GuntingBatuKertasTests.swift */; };
 		C0A180802868AA3C00C9EDDF /* GuntingBatuKertasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A1807F2868AA3C00C9EDDF /* GuntingBatuKertasUITests.swift */; };
 		C0A180822868AA3C00C9EDDF /* GuntingBatuKertasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A180812868AA3C00C9EDDF /* GuntingBatuKertasUITestsLaunchTests.swift */; };
+		C0A1808F2868AD1600C9EDDF /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A1808E2868AD1600C9EDDF /* HistoryViewController.swift */; };
+		C0A180972868AE3A00C9EDDF /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A180952868AE3A00C9EDDF /* HistoryTableViewCell.swift */; };
+		C0A180982868AE3A00C9EDDF /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0A180962868AE3A00C9EDDF /* HistoryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		C0A1807B2868AA3C00C9EDDF /* GuntingBatuKertasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuntingBatuKertasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A1807F2868AA3C00C9EDDF /* GuntingBatuKertasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuntingBatuKertasUITests.swift; sourceTree = "<group>"; };
 		C0A180812868AA3C00C9EDDF /* GuntingBatuKertasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuntingBatuKertasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0A1808E2868AD1600C9EDDF /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		C0A180952868AE3A00C9EDDF /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		C0A180962868AE3A00C9EDDF /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,11 @@
 		C0A1805A2868AA3800C9EDDF /* GuntingBatuKertas */ = {
 			isa = PBXGroup;
 			children = (
+				C0A180922868AD6D00C9EDDF /* view */,
+				C0A180912868AD6600C9EDDF /* viewcontroller */,
+				C0A180902868AD6000C9EDDF /* cell */,
 				C0A1805B2868AA3800C9EDDF /* AppDelegate.swift */,
 				C0A1805D2868AA3800C9EDDF /* SceneDelegate.swift */,
-				C0A1805F2868AA3800C9EDDF /* ViewController.swift */,
-				C0A180612868AA3800C9EDDF /* Main.storyboard */,
 				C0A180672868AA3C00C9EDDF /* Assets.xcassets */,
 				C0A180692868AA3C00C9EDDF /* LaunchScreen.storyboard */,
 				C0A1806C2868AA3C00C9EDDF /* Info.plist */,
@@ -128,6 +135,32 @@
 				C0A180812868AA3C00C9EDDF /* GuntingBatuKertasUITestsLaunchTests.swift */,
 			);
 			path = GuntingBatuKertasUITests;
+			sourceTree = "<group>";
+		};
+		C0A180902868AD6000C9EDDF /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				C0A180952868AE3A00C9EDDF /* HistoryTableViewCell.swift */,
+				C0A180962868AE3A00C9EDDF /* HistoryTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		C0A180912868AD6600C9EDDF /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				C0A1805F2868AA3800C9EDDF /* ViewController.swift */,
+				C0A1808E2868AD1600C9EDDF /* HistoryViewController.swift */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		C0A180922868AD6D00C9EDDF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C0A180612868AA3800C9EDDF /* Main.storyboard */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +269,7 @@
 			files = (
 				C0A1806B2868AA3C00C9EDDF /* LaunchScreen.storyboard in Resources */,
 				C0A180682868AA3C00C9EDDF /* Assets.xcassets in Resources */,
+				C0A180982868AE3A00C9EDDF /* HistoryTableViewCell.xib in Resources */,
 				C0A180632868AA3800C9EDDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,9 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A180972868AE3A00C9EDDF /* HistoryTableViewCell.swift in Sources */,
 				C0A180662868AA3800C9EDDF /* GuntingBatuKertas.xcdatamodeld in Sources */,
 				C0A180602868AA3800C9EDDF /* ViewController.swift in Sources */,
 				C0A1805C2868AA3800C9EDDF /* AppDelegate.swift in Sources */,
+				C0A1808F2868AD1600C9EDDF /* HistoryViewController.swift in Sources */,
 				C0A1805E2868AA3800C9EDDF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
