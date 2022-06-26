@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0A1805C2868AA3800C9EDDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A1805B2868AA3800C9EDDF /* AppDelegate.swift */; };
+		C0A1805E2868AA3800C9EDDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A1805D2868AA3800C9EDDF /* SceneDelegate.swift */; };
+		C0A180602868AA3800C9EDDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A1805F2868AA3800C9EDDF /* ViewController.swift */; };
+		C0A180632868AA3800C9EDDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A180612868AA3800C9EDDF /* Main.storyboard */; };
+		C0A180662868AA3800C9EDDF /* GuntingBatuKertas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0A180642868AA3800C9EDDF /* GuntingBatuKertas.xcdatamodeld */; };
+		C0A180682868AA3C00C9EDDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A180672868AA3C00C9EDDF /* Assets.xcassets */; };
+		C0A1806B2868AA3C00C9EDDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A180692868AA3C00C9EDDF /* LaunchScreen.storyboard */; };
+		C0A180762868AA3C00C9EDDF /* GuntingBatuKertasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A180752868AA3C00C9EDDF /* GuntingBatuKertasTests.swift */; };
+		C0A180802868AA3C00C9EDDF /* GuntingBatuKertasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A1807F2868AA3C00C9EDDF /* GuntingBatuKertasUITests.swift */; };
+		C0A180822868AA3C00C9EDDF /* GuntingBatuKertasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A180812868AA3C00C9EDDF /* GuntingBatuKertasUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0A180722868AA3C00C9EDDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0A180502868AA3800C9EDDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A180572868AA3800C9EDDF;
+			remoteInfo = GuntingBatuKertas;
+		};
+		C0A1807C2868AA3C00C9EDDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0A180502868AA3800C9EDDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A180572868AA3800C9EDDF;
+			remoteInfo = GuntingBatuKertas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0A180582868AA3800C9EDDF /* GuntingBatuKertas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuntingBatuKertas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A1805B2868AA3800C9EDDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0A1805D2868AA3800C9EDDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C0A1805F2868AA3800C9EDDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0A180622868AA3800C9EDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0A180652868AA3800C9EDDF /* GuntingBatuKertas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GuntingBatuKertas.xcdatamodel; sourceTree = "<group>"; };
+		C0A180672868AA3C00C9EDDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0A1806A2868AA3C00C9EDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0A1806C2868AA3C00C9EDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A180712868AA3C00C9EDDF /* GuntingBatuKertasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuntingBatuKertasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A180752868AA3C00C9EDDF /* GuntingBatuKertasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuntingBatuKertasTests.swift; sourceTree = "<group>"; };
+		C0A1807B2868AA3C00C9EDDF /* GuntingBatuKertasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuntingBatuKertasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A1807F2868AA3C00C9EDDF /* GuntingBatuKertasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuntingBatuKertasUITests.swift; sourceTree = "<group>"; };
+		C0A180812868AA3C00C9EDDF /* GuntingBatuKertasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuntingBatuKertasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0A180552868AA3800C9EDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A1806E2868AA3C00C9EDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A180782868AA3C00C9EDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0A1804F2868AA3800C9EDDF = {
+			isa = PBXGroup;
+			children = (
+				C0A1805A2868AA3800C9EDDF /* GuntingBatuKertas */,
+				C0A180742868AA3C00C9EDDF /* GuntingBatuKertasTests */,
+				C0A1807E2868AA3C00C9EDDF /* GuntingBatuKertasUITests */,
+				C0A180592868AA3800C9EDDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0A180592868AA3800C9EDDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0A180582868AA3800C9EDDF /* GuntingBatuKertas.app */,
+				C0A180712868AA3C00C9EDDF /* GuntingBatuKertasTests.xctest */,
+				C0A1807B2868AA3C00C9EDDF /* GuntingBatuKertasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0A1805A2868AA3800C9EDDF /* GuntingBatuKertas */ = {
+			isa = PBXGroup;
+			children = (
+				C0A1805B2868AA3800C9EDDF /* AppDelegate.swift */,
+				C0A1805D2868AA3800C9EDDF /* SceneDelegate.swift */,
+				C0A1805F2868AA3800C9EDDF /* ViewController.swift */,
+				C0A180612868AA3800C9EDDF /* Main.storyboard */,
+				C0A180672868AA3C00C9EDDF /* Assets.xcassets */,
+				C0A180692868AA3C00C9EDDF /* LaunchScreen.storyboard */,
+				C0A1806C2868AA3C00C9EDDF /* Info.plist */,
+				C0A180642868AA3800C9EDDF /* GuntingBatuKertas.xcdatamodeld */,
+			);
+			path = GuntingBatuKertas;
+			sourceTree = "<group>";
+		};
+		C0A180742868AA3C00C9EDDF /* GuntingBatuKertasTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0A180752868AA3C00C9EDDF /* GuntingBatuKertasTests.swift */,
+			);
+			path = GuntingBatuKertasTests;
+			sourceTree = "<group>";
+		};
+		C0A1807E2868AA3C00C9EDDF /* GuntingBatuKertasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0A1807F2868AA3C00C9EDDF /* GuntingBatuKertasUITests.swift */,
+				C0A180812868AA3C00C9EDDF /* GuntingBatuKertasUITestsLaunchTests.swift */,
+			);
+			path = GuntingBatuKertasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0A180572868AA3800C9EDDF /* GuntingBatuKertas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A180852868AA3C00C9EDDF /* Build configuration list for PBXNativeTarget "GuntingBatuKertas" */;
+			buildPhases = (
+				C0A180542868AA3800C9EDDF /* Sources */,
+				C0A180552868AA3800C9EDDF /* Frameworks */,
+				C0A180562868AA3800C9EDDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuntingBatuKertas;
+			productName = GuntingBatuKertas;
+			productReference = C0A180582868AA3800C9EDDF /* GuntingBatuKertas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0A180702868AA3C00C9EDDF /* GuntingBatuKertasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A180882868AA3C00C9EDDF /* Build configuration list for PBXNativeTarget "GuntingBatuKertasTests" */;
+			buildPhases = (
+				C0A1806D2868AA3C00C9EDDF /* Sources */,
+				C0A1806E2868AA3C00C9EDDF /* Frameworks */,
+				C0A1806F2868AA3C00C9EDDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0A180732868AA3C00C9EDDF /* PBXTargetDependency */,
+			);
+			name = GuntingBatuKertasTests;
+			productName = GuntingBatuKertasTests;
+			productReference = C0A180712868AA3C00C9EDDF /* GuntingBatuKertasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0A1807A2868AA3C00C9EDDF /* GuntingBatuKertasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A1808B2868AA3C00C9EDDF /* Build configuration list for PBXNativeTarget "GuntingBatuKertasUITests" */;
+			buildPhases = (
+				C0A180772868AA3C00C9EDDF /* Sources */,
+				C0A180782868AA3C00C9EDDF /* Frameworks */,
+				C0A180792868AA3C00C9EDDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0A1807D2868AA3C00C9EDDF /* PBXTargetDependency */,
+			);
+			name = GuntingBatuKertasUITests;
+			productName = GuntingBatuKertasUITests;
+			productReference = C0A1807B2868AA3C00C9EDDF /* GuntingBatuKertasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0A180502868AA3800C9EDDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C0A180572868AA3800C9EDDF = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					C0A180702868AA3C00C9EDDF = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = C0A180572868AA3800C9EDDF;
+					};
+					C0A1807A2868AA3C00C9EDDF = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = C0A180572868AA3800C9EDDF;
+					};
+				};
+			};
+			buildConfigurationList = C0A180532868AA3800C9EDDF /* Build configuration list for PBXProject "GuntingBatuKertas" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0A1804F2868AA3800C9EDDF;
+			productRefGroup = C0A180592868AA3800C9EDDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0A180572868AA3800C9EDDF /* GuntingBatuKertas */,
+				C0A180702868AA3C00C9EDDF /* GuntingBatuKertasTests */,
+				C0A1807A2868AA3C00C9EDDF /* GuntingBatuKertasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0A180562868AA3800C9EDDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A1806B2868AA3C00C9EDDF /* LaunchScreen.storyboard in Resources */,
+				C0A180682868AA3C00C9EDDF /* Assets.xcassets in Resources */,
+				C0A180632868AA3800C9EDDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A1806F2868AA3C00C9EDDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A180792868AA3C00C9EDDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0A180542868AA3800C9EDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A180662868AA3800C9EDDF /* GuntingBatuKertas.xcdatamodeld in Sources */,
+				C0A180602868AA3800C9EDDF /* ViewController.swift in Sources */,
+				C0A1805C2868AA3800C9EDDF /* AppDelegate.swift in Sources */,
+				C0A1805E2868AA3800C9EDDF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A1806D2868AA3C00C9EDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A180762868AA3C00C9EDDF /* GuntingBatuKertasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A180772868AA3C00C9EDDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A180802868AA3C00C9EDDF /* GuntingBatuKertasUITests.swift in Sources */,
+				C0A180822868AA3C00C9EDDF /* GuntingBatuKertasUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0A180732868AA3C00C9EDDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0A180572868AA3800C9EDDF /* GuntingBatuKertas */;
+			targetProxy = C0A180722868AA3C00C9EDDF /* PBXContainerItemProxy */;
+		};
+		C0A1807D2868AA3C00C9EDDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0A180572868AA3800C9EDDF /* GuntingBatuKertas */;
+			targetProxy = C0A1807C2868AA3C00C9EDDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0A180612868AA3800C9EDDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A180622868AA3800C9EDDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0A180692868AA3C00C9EDDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A1806A2868AA3C00C9EDDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0A180832868AA3C00C9EDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0A180842868AA3C00C9EDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0A180862868AA3C00C9EDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7K2J83XY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuntingBatuKertas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gilang.GuntingBatuKertas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0A180872868AA3C00C9EDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7K2J83XY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GuntingBatuKertas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gilang.GuntingBatuKertas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0A180892868AA3C00C9EDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7K2J83XY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gilang.GuntingBatuKertasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuntingBatuKertas.app/GuntingBatuKertas";
+			};
+			name = Debug;
+		};
+		C0A1808A2868AA3C00C9EDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7K2J83XY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gilang.GuntingBatuKertasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuntingBatuKertas.app/GuntingBatuKertas";
+			};
+			name = Release;
+		};
+		C0A1808C2868AA3C00C9EDDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7K2J83XY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gilang.GuntingBatuKertasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuntingBatuKertas;
+			};
+			name = Debug;
+		};
+		C0A1808D2868AA3C00C9EDDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7K2J83XY8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gilang.GuntingBatuKertasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuntingBatuKertas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0A180532868AA3800C9EDDF /* Build configuration list for PBXProject "GuntingBatuKertas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A180832868AA3C00C9EDDF /* Debug */,
+				C0A180842868AA3C00C9EDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A180852868AA3C00C9EDDF /* Build configuration list for PBXNativeTarget "GuntingBatuKertas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A180862868AA3C00C9EDDF /* Debug */,
+				C0A180872868AA3C00C9EDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A180882868AA3C00C9EDDF /* Build configuration list for PBXNativeTarget "GuntingBatuKertasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A180892868AA3C00C9EDDF /* Debug */,
+				C0A1808A2868AA3C00C9EDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A1808B2868AA3C00C9EDDF /* Build configuration list for PBXNativeTarget "GuntingBatuKertasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A1808C2868AA3C00C9EDDF /* Debug */,
+				C0A1808D2868AA3C00C9EDDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0A180642868AA3800C9EDDF /* GuntingBatuKertas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0A180652868AA3800C9EDDF /* GuntingBatuKertas.xcdatamodel */,
+			);
+			currentVersion = C0A180652868AA3800C9EDDF /* GuntingBatuKertas.xcdatamodel */;
+			path = GuntingBatuKertas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C0A180502868AA3800C9EDDF /* Project object */;
+}
